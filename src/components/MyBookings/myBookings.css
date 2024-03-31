@@ -1,0 +1,164 @@
+.my-booking-card-container{
+    padding:1.5rem;
+    margin: 2rem 5rem;
+    border: 1px solid rgb(221, 221, 221); 
+    border-radius: .9rem; 
+    color: var(--font-grey);
+    letter-spacing: .5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    margin-bottom:3rem;
+  }
+  
+  .my-booking{
+    margin: auto;
+  }
+  
+  .booking-list-title{
+    padding: 0rem 5rem;
+  }
+  
+  .my-booking-card{
+    padding:2rem 4rem 1rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .mbr-right-content-1{
+    padding:1.5rem;
+    width: 23rem;
+    border-right: 1px solid #dddddd;
+    display: flex;
+    gap:2rem;
+  
+  }
+  
+  
+  .mbr-right-content-1-img{
+    width:7rem;
+    border-radius: 1rem;
+    height: 6rem;;
+  }
+  
+  
+  .mbr-right-content-2{
+    letter-spacing: .2px;
+    padding:1rem 5rem 1rem 1.5rem;
+    gap:2rem;
+    width: 23rem;
+    border-right: 1px solid #dddddd;
+  }
+  
+  .mbr-right-content-2-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+  }
+  
+  .my-booking-pricing-container{
+    display: flex;
+    color: var(--font-grey);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+  }
+  
+  .my-booking-pricing-left{
+    text-decoration: underline;
+   
+    
+  }
+  
+  
+  .my-booking-total{
+    display: flex;
+    width: 23rem;
+    padding: 1rem 1.6rem 0 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  @media only screen and (max-width:1700px){
+    .my-booking-card{
+      justify-content: flex-start;
+    }
+  
+    .mbr-right-content-1{
+      padding:0 1rem;
+    } 
+    .mbr-right-content-2{
+      padding:0 3rem;
+  
+    } 
+    .my-booking-total{
+      width: 12rem;
+      padding-left:3rem;
+    } 
+  }
+  
+  @media only screen and (max-width:1480px){
+    .my-booking-total{
+      padding-top: 1.5rem;
+      padding-left:1.5rem;
+    }
+    .mbr-right-content-2{
+      border:none;
+  
+    } 
+  }
+  
+  @media only screen and (max-width:1210px){
+    .mbr-right-content-1{
+      border:none;
+    } 
+    .mbr-right-content-2{
+      border:none;
+      padding:2rem 0rem 0rem 1.5rem;
+  
+    } 
+  }
+  
+  @media only screen and (max-width:750px){
+    .my-booking-card-container{
+      padding:1.5rem 0rem;
+      margin: 2rem 2rem;
+      border: 1px solid rgb(221, 221, 221); 
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px
+    }
+  }
+  
+  @media only screen and (max-width:520px){
+  
+    .my-booking-card-container{
+      padding:0 0rem;
+      margin: 0rem 0rem;
+    }
+  
+    .my-booking-card{
+      padding:0rem 1rem 1rem 1rem;  
+      margin-top:1.5rem;
+    } 
+  
+  }
+  
+  @media only screen and (max-width:450px){
+    .my-booking-card-container{
+      margin: 0rem 0;
+    
+    }
+  
+  }
+  
+  @media only screen and (max-width:360px){
+    .booking-list-title{
+      padding:2rem 0;
+      text-align: center;
+    }
+  
+  }

@@ -1,0 +1,303 @@
+.book-room-container{
+    letter-spacing: 1px;
+    width:80%;
+    margin: auto;
+    line-height: 1.5;
+    margin-top: 10vh;
+  }
+  
+  .book-room-title{
+    font-size: 2rem;
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  
+  .book-room-details{
+    display: flex;
+    padding:0 4rem;
+    justify-content: space-between;
+  }
+  
+  .book-room-details-left{
+    width: 50%;
+  }
+  
+  .br-left-1{
+    border-bottom: 1px solid #dddddd;
+    padding:2rem 0;
+  }
+  
+  .br-left-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .br-left-content{
+    font-size: 1rem;
+    padding: .5rem 0
+  }
+  
+  .br-left-content-title{
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  
+  .payment-input{
+    margin-top: .7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--medium-grey);
+    border: none;
+    border-radius: .5rem;
+    width: 10.3rem;
+    font-size: .9rem;
+    box-shadow: none;
+    margin-bottom: .5rem;
+    border: 1px solid #cfcccc;
+  }
+  
+  .payment-width{
+    width: 24.5rem;
+  }
+  
+  
+  
+  .br-left-content-title-2{
+    color: var(--font-grey);
+    font-size: 1rem;
+  }
+  
+  .payment-flex{
+    display: flex;
+  }
+  
+  .payment-flex-child{
+    width: 50%;
+  }
+  
+  
+  
+  
+  
+  .book-room-details-right{
+    padding:1rem;
+    width: 35%;;
+    height: max-content;
+    border-radius: 1rem;
+    border: 1px solid #dddddd;
+  }
+  
+  .br-right-content-1{
+    padding:1.5rem;
+    display: flex;
+    gap:2rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  
+  .br-right-content-1-img{
+    width:7rem;
+    border-radius: 1rem;
+    height: 6rem;;
+  }
+  
+  
+  .br-right-content-2{
+    letter-spacing: .2px;
+    padding:1rem 1.5rem 1rem 1.5rem;
+    gap:2rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .br-right-content-2-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+  }
+  
+  .booking-pricing-container{
+    display: flex;
+    color: var(--font-grey);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+  }
+  
+  .booking-pricing-left {
+    text-decoration: underline;
+  }
+  
+  
+  
+    .booking-pricing-left::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px; /* Adjust as needed */
+      background-color: currentColor; /* Use the color of the text */
+    }
+  
+  
+  
+  
+  .booking-total{
+    display: flex;
+    padding: 1rem 1.6rem 0 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  
+  .booking-search-button {
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #dd1063;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-search-button:hover {
+    background-color: #cd0c59;
+  }
+  
+  @media only screen and (max-width:1300px){
+    .book-room-container{
+      width:90%;
+    }
+  }
+  
+  @media only screen and (max-width:1100px){
+    .book-room-details{
+      display: block;
+      margin-bottom:3rem;
+    }
+  
+    .book-room-title{
+      width: max-content;
+      margin: auto;
+    }
+    
+    .book-room-details-left{
+      width: 90%;
+    }
+    .book-room-details-right{
+      margin-top: 2rem;
+      width: 86%;
+    }
+  }
+  
+  @media only screen and (max-width:1300px){
+    .br-left-1:nth-child(2){
+      border-bottom: none;
+    }
+    .book-room-container{
+      width:90%;
+    }
+  }
+  @media only screen and (max-width:640px){
+    .book-room-container{
+      margin-top: 2rem;
+    }
+    
+    .book-room-title{
+      margin-bottom: .5rem;;
+    }
+  
+    .book-room-container{
+      width:100%;
+    }
+    .book-room-details{
+      padding:0 3rem;
+    }
+    .book-room-details-left{
+      width: 100%;
+    }
+    .book-room-details-right{
+      margin-top: 2rem;
+      width: 86%;
+    }
+  }
+  
+  @media only screen and (max-width: 510px){
+    .payment-input{
+      width: 8rem;;
+    }
+    .payment-width{
+      width: 18rem;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 440px){
+    .payment-input{
+      width: 5rem;;
+    }
+    .br-right-content-1{
+      display: block;
+      text-align: center;
+  
+    }
+    
+    .payment-width{
+      width: 18rem;
+    }
+  }
+  
+  @media only screen and (max-width: 400px){
+    .book-room-details{
+      padding:0 2rem;
+    }
+    .payment-input{
+      width: 5rem;;
+    }
+    .payment-width{
+      width: 18rem;
+    }
+  }
+  
+  @media only screen and (max-width: 390px){
+    .book-room-title{
+      font-size: 1.8rem;
+    }
+    .booking-pricing-container{
+      display: block;
+      margin-bottom:1rem;
+  
+    }
+  
+    .book-room-details{
+      padding:0 2rem;
+    }
+  
+    .payment-width{
+      width: 14rem;
+    }
+  }
+  
+  @media only screen and (max-width: 320px){
+  
+  
+    .book-room-details{
+      padding:0 1rem;
+    }
+  
+    .payment-width{
+      width: 12rem;
+    }
+  }

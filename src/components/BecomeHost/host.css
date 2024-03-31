@@ -1,0 +1,40 @@
+
+
+.become-host-container{
+    margin: auto;
+    background-color: #ffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding:2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    width: 90%;
+  }
+  
+  .become-host-title{
+    font-size: 2rem;
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  
+  .host-form-submit-buttons{
+    margin-top: 1rem !important; 
+  }
+  
+  
+  .host-spacing{
+    padding: .5rem 3rem !important;
+  }
+  
+  .host-profile{
+    padding:1rem 4rem !important;
+  }
+  
+  @media only screen and (max-width:420px){
+    .become-host-container{
+      padding:0rem;
+      width: 100%;
+    } 
+  }
